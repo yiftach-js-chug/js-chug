@@ -1,0 +1,20 @@
+div.pawn {
+	width: 10px;
+	height: 10px;
+}
+
+div.pawn.red {
+	background-color: red;
+}
+
+div.pawn.blue {
+	background-color: blue;
+}
+
+div.pawn.yellow {
+	background-color: yellow;
+}
+
+div.pawn.green {
+	background-color: green;
+}
