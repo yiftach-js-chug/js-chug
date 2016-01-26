@@ -9,3 +9,9 @@ red.init();
 
 blue = new Pawn('blue', board);
 blue.init();
+
+green = new Pawn('green', board);
+green.init();
+
+yellow = new Pawn('yellow', board);
+yellow.init();

@@ -1,20 +1,27 @@
-div.pawn {
-	width: 10px;
-	height: 10px;
+.pawn {
+	width: 15px;
+    height: 15px;
+    margin: 3px;
+    border-radius: 7px;
 }
 
-div.pawn.red {
-	background-color: red;
-}
+	.pawn.red {
+		background-color: red;
+	}
+	
+	.pawn.blue {
+		background-color: blue;
+	}
+	
+	.pawn.yellow {
+		background-color: yellow;
+	}
+	
+	.pawn.green {
+		background-color: green;
+	}
 
-div.pawn.blue {
-	background-color: blue;
-}
-
-div.pawn.yellow {
-	background-color: yellow;
-}
-
-div.pawn.green {
-	background-color: green;
-}
+	.pawn:nth-child(even) {
+	    float: right;
+	    clear: right;
+	}
